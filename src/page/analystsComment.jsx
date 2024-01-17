@@ -1,5 +1,5 @@
 import React from 'react'
-import "./totalStyles.css"
+import "./totalStyles.css";
 const AnalystsComment = () => {
     return (
         <div className='commentToArticle_container'>

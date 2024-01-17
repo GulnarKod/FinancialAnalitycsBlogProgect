@@ -1,72 +1,158 @@
-.header_style{
-    width: 319px;
-    height: 48px;
-    flex-shrink: 0;
-    margin:23px auto 12px 27px;
-  }
-    .header_style__h1{
-      color: #FFF;
-      font-family: Roboto Slab;
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      text-shadow: -1px -1px 0px rgb(0, 0, 1),-1px 1px 0px rgb(0, 0, 1),1px -1px 0px rgb(0, 0, 1),1px 1px 0px rgb(0, 0, 1);
-    }
-    .header_link_style_smallText{
-      color: #FFF;
+.header_style {
+  width: 319px;
+  height: 48px;
+  flex-shrink: 0;
+  margin: 23px auto 12px 27px;
+}
+
+.header_style__h1 {
+  color: #FFF;
+  font-family: Roboto Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: -1px -1px 0px rgb(0, 0, 1), -1px 1px 0px rgb(0, 0, 1), 1px -1px 0px rgb(0, 0, 1), 1px 1px 0px rgb(0, 0, 1);
+}
+
+.header_link_style_smallText {
+  color: #FFF;
   font-family: Roboto Slab;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-    }
-    .header_link_style{
-      text-decoration: none;
-      color: #FFF;
-    }
-    .articls_container{
-      display:flex;
-      flex-wrap: wrap;
-      width: 1440px;
-      padding-left: 54px;
-      padding-right: 18px;
-    }
-    .item_article{
-      background: #112B3E;
-      margin-top: 40px;
-      margin-right: 35px;
-      margin-bottom: 55px;
-      width: 420px;
-      height: 450px;
-    }
-    .item_img{
-      width: 420px;
-  height: 299px;
-  margin-bottom: 10px;
+}
+
+.header_link_style {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.articls_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 1440px;
+  max-width: 100%;
+  padding-left: 54px;
+  padding-right: 18px;
+  flex-shrink: 0;
+}
+
+.item_article {
+  position: relative;
+  background: #112B3E;
+  margin-top: 40px;
+  margin-right: 25px;
+  margin-bottom: 55px;
+  width: 420px;
+  flex-basis: 30%;
+  height: 450px;
+}
+
+.item_img {
   
-    }
-    .article_header{
-      color: #FFF;
-      width: 420px;
-      height: 80px;
-      text-align: center;
-      font-family:Roboto Slab;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;  
-    }
-    
-    .article_src {
-      color: #FFF;
+  width: 420px;
+  height: 299px;
+  transition: 1.1s;
+}
+.item_img:hover{
+  transform: scale(1.1);
+  
+}
+
+.article_header {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.65px;
+
+}
+
+.article_src {
+  flex-direction: column;
+  color: #FFF;
   text-decoration: none;
   text-align: center;
-  font-family: Roboto Slab;
+  font-family: 'Roboto Slab';
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 18.46;
   margin-bottom: 10px;
-  
-    }
+  margin-top: 10px;
+
+}
+
+.detail_articl_container {
+  width: 1440px;
+  height: 1506;
+}
+
+.detail_article_header {
+  width: 938px;
+  text-align: center;
+  margin-top: 64px;
+  margin-left: 86px;
+  font-family: 'Roboto Slab';
+  color: #FFF;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47.48px;
+}
+
+.detail_item_img {
+  width: 1198px;
+  height: 448px;
+  margin-left: 121px;
+}
+
+.detail_article_text {
+  width: 1191px;
+  height: 408px;
+  font-family: 'Roboto Slab';
+  font-weight: 500px;
+  font-size: 17px;
+  line-height: 22.42px;
+  margin-left: 128px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.commentToArticle_container {
+  background-color:
+    rgba(255, 255, 255, 1);
+  width: 1198px;
+  height: 262px;
+  margin-top: 35px;
+  margin-left: 121px;
+  margin-bottom: 96px;
+}
+
+.commentToArticle_post {
+  width: 1144px;
+  height: 201px;
+  margin-top: 25px;
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+.commentToArticle_header {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26.38px;
+
+}
+
+.commentToArticle_text {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18.46px;
+}
