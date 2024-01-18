@@ -7,7 +7,7 @@ import Articles from './page/articles';
 import ErrorPage from './errorPage';
 import './App.css';
 
-function App() {
+function App({ article }) {
   return (
     <Router>
      <Container>

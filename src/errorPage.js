@@ -7,7 +7,8 @@ import React from "react";
                 textAlign: "center",
             }}>
             </div>
-            <p>Page not found</p>
+            <p>Page not found. Go <a href="/">Home</a>
+            </p>
 
         </div>
     )
