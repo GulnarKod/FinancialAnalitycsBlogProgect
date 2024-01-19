@@ -18,10 +18,9 @@ const unsubscribe=onSnapshot(queryData,(querySnapshot)=>{
     return ()=> unsubscribe();
 },[]);
     return(
-       <div className="articls_container">
-         
-         {articles.map((a) => <Article key={a.id} article={a} />)}
+       <div className="articls_container">        
+        {articles.map((a)=><Article key= {a.id} articles={a}/>)}
        </div>
-    )
+        )
 }
 export default Articles;
