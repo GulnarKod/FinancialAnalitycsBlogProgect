@@ -56,9 +56,10 @@
 
   transition: 1.1s;
 }
-.item_img:hover{
+
+.item_img:hover {
   transform: scale(1.1);
-  
+
 }
 
 .article_header {
@@ -71,11 +72,13 @@
   height: 50px;
   line-height: 31.65px;
   margin-bottom: 10px;
-  
+
 }
-.article_header_a{
+
+.article_header_a {
   text-decoration: none;
 }
+
 .article_src {
   flex-direction: column;
   color: #FFF;
@@ -114,7 +117,7 @@
 }
 
 .detail_article_text {
-  overflow:auto;
+  overflow: auto;
   width: 1191px;
   height: 408px;
   font-family: 'Roboto Slab';

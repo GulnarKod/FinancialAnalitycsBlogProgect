@@ -1,6 +1,6 @@
 import React from "react";
- const ErrorPage=()=>{
-    return(
+const ErrorPage = () => {
+    return (
         <div>
             <h1>Error 404</h1>
             <div style={{
@@ -12,5 +12,5 @@ import React from "react";
 
         </div>
     )
- } 
- export default ErrorPage;
+}
+export default ErrorPage;
